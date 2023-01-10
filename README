@@ -5,6 +5,7 @@ trial_type: 1=csp shock; 2=csp view; 3=csp imagine; 4=csm view; 5=csm imagine
 shock: 1 = on; 2 = off
 Orientation: orientation of the gabor being viewed OR imagined
 
+sub-27 was not included in analyses due to technicalities during collection
 
 This dataset is made available under the Public Domain Dedication and License 
 v1.0, whose full text can be found at 
