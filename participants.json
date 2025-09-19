@@ -5,15 +5,16 @@
                 "TermURL": "nb:Age",
                 "Label": ""
             },
-            "Transformation": {
-                "TermURL": "nb:FromFloat",
-                "Label": "float data"
-            },
             "MissingValues": [
                 "",
                 "n/a",
                 " "
-            ]
+            ],
+            "Format": {
+                "TermURL": "nb:FromFloat",
+                "Label": "float data"
+            },
+            "VariableType": "Continuous"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     },
@@ -38,7 +39,8 @@
                 " ",
                 "nan",
                 "n/a"
-            ]
+            ],
+            "VariableType": "Categorical"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     },
@@ -48,7 +50,7 @@
                 "TermURL": "nb:ParticipantID",
                 "Label": ""
             },
-            "Identifies": "participant"
+            "VariableType": "Identifier"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     }
